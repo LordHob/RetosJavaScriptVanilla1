@@ -8,4 +8,4 @@ let result;
 
 result = precio * IVA;
 
-console.log("El precio total es " + result)
+alert("El precio total es " + result)

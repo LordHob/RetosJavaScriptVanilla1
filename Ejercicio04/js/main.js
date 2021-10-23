@@ -6,7 +6,7 @@ const PI = 3.1416;
 var radio = prompt("Introduce el radio del círculo");
 var result;
 
-radio = parseFloat(radio);
+radio = parseDouble(radio);
 result = PI * radio ** 2;
 
-console.log("El área es " + result);
+alert("El área es " + result);

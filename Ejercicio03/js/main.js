@@ -2,6 +2,12 @@
 
 // Modifica la aplicación anterior, para que nos pida el nombre que queremos introducir (recuerda usar prompt)
 
-var nombre = prompt("Introduce tu nombre");
+//DECLARAR ENTORNO
+var nombre;
 
-console.log("Bienvenido " + nombre);
+//ALGORITMO
+
+nombre = prompt("Introduce tu nombre");
+
+//OUTPUT
+alert("Bienvenido " + nombre);

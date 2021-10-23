@@ -14,6 +14,7 @@ switch (dia) {
         break;
     case "sábado":
     case "domingo":
+        alert("Día festivo")
 
     default:
         alert("Cómprate un cuadernillo Rubio zoquete")

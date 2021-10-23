@@ -4,12 +4,16 @@
 
 var contraseña = "admin1234";
 var intentos = 0;
-var pregunta = "";
+var respuesta = "";
 
 do {
     pregunta = prompt("Introduzca contraseña por favor");
-    console.log();
-    (intentos++);
-} while ((contraseña != pregunta) && (intentos <= 3));
+    intentos++;
+} while ((contraseña != respuesta) && (intentos < 3));
 
-alert("Bienvenido");
+if (contraseña==respuesta) {
+    alert("Bienvenido ^_^");
+} else {
+    alert("Has agotado el número de intenteos");
+}
+
